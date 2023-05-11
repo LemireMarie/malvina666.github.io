@@ -1,0 +1,149 @@
+@import url(../../src/fonts/HelveticaNeueLTPro-Bd.otf);
+* {
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+.bg_header {
+    background-color: rgba(27, 25, 25);  
+}
+.header {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+}
+.header img {
+    margin-left: 7rem;
+    width: 165px;
+    height: 120px;
+    object-fit: contain;
+}
+.header ul {
+    margin-left: 10rem;
+    display: flex;
+    font-size: 3rem;
+}
+.header li {
+    list-style: none;
+    text-align: center;
+}
+.header li a {
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    text-decoration: none;
+    padding: 2.5rem 7rem;
+}
+.header li a:hover {
+    text-decoration: underline;
+}
+/*main*/
+main {
+    background-image: url(../../src/img/bg.png);
+}
+/*footer*/
+.footer {
+    background-color: rgba(27, 25, 25);
+    text-align: center;
+}
+.footer h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    padding: 1rem;
+}
+/*Accueil*/
+.img_presentation {
+   display: flex; 
+}
+.img1 {
+    object-fit: contain;
+    width: 30%;
+    height: 300px;
+    margin: 3rem 0 3rem 15rem; 
+}
+.img2 {
+    object-fit: contain;
+    width: 10%;
+    height: 300px;
+    margin: 3rem 0;
+}
+.img3 {
+    object-fit: contain;
+    width: 30%;
+    height: 300px;
+    margin: 3rem 0;
+}
+.presentation {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(105, 68, 24);
+}
+article {
+    font-size: 1.5rem;
+    padding: 5rem 10rem;
+    
+}
+.atelier {
+    margin: auto;
+    text-align: justify;
+    color: rgb(12, 66, 49);
+}
+.atelier h1 {
+    margin: 2rem 0;
+    text-decoration: underline;
+}
+.content {
+    display: flex;
+}
+.atelier img {
+    object-fit: contain;
+    width: 30%;
+    height: 250px;
+    border: 2px solid black;
+}
+.atelier p {
+    padding-left: 2rem;
+}
+/*Produits*/
+.produits img{
+    height: 100px;
+    margin: auto;
+}
+.produits div {
+    display: flex;
+    flex-direction: column;
+}
+.produits .nom{
+    height: 50px;
+    padding: 3rem 10rem;
+}
+.produits p {
+    margin: auto;
+    text-align: justify;
+    color: rgb(12, 66, 49);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 3rem 25rem;
+}
+/*Contact*/
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+.liste h2, ul {
+    
+    color:  rgb(12, 66, 49);
+    font-size: 2rem;
+    padding: 1.5rem 7rem;
+}
+.liste h2 {
+text-decoration: underline;
+}
+.liste li {
+    color: rgb(105, 68, 24);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+iframe {
+    margin: auto;
+}
